@@ -18,6 +18,7 @@ public class DatosPlayer : MonoBehaviour
         if (vidaPlayer <= 0)
         {
             Debug.Log("Has muerto");
+
         }
 
     }
