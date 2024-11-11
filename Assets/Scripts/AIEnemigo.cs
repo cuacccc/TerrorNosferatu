@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 using UnityEngine.AI;
 
 public class AIEnemigo : MonoBehaviour
@@ -23,4 +23,4 @@ public class AIEnemigo : MonoBehaviour
             agent.SetDestination(player.position);
         }
     }
-}
+}*/
