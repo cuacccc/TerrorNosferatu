@@ -8398,6 +8398,15 @@ MonoBehaviour:
   LuzLinterna: {fileID: 1291059600}
   ActiveLight: 0
   LinternaEnMano: 0
+  cantBateria: 100
+  perdidaBateria: 0.5
+  pila1: {fileID: 0}
+  pila2: {fileID: 0}
+  pila3: {fileID: 0}
+  pila4: {fileID: 0}
+  pilaVacia: {fileID: 0}
+  pilaLlena: {fileID: 0}
+  porcentaje: {fileID: 0}
 --- !u!1001 &717081275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23617,6 +23626,15 @@ MonoBehaviour:
   LuzLinterna: {fileID: 1282642625}
   ActiveLight: 0
   LinternaEnMano: 0
+  cantBateria: 100
+  perdidaBateria: 0.5
+  pila1: {fileID: 0}
+  pila2: {fileID: 0}
+  pila3: {fileID: 0}
+  pila4: {fileID: 0}
+  pilaVacia: {fileID: 0}
+  pilaLlena: {fileID: 0}
+  porcentaje: {fileID: 0}
 --- !u!4 &1810102211
 Transform:
   m_ObjectHideFlags: 0
