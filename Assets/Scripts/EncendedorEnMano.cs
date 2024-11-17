@@ -2,15 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bateria : MonoBehaviour
+public class EncendedorEnMano : MonoBehaviour
 {
-    public GameObject linterna;
-    //public float bateria;
+    public GameObject Encendedor;
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            linterna.GetComponent<Linterna>(); //.cantBateria += bateria;
+            Encendedor.SetActive(true);
+            Encendedor.GetComponent<Encendedor>().EncendedorEnMano = true;
             Destroy(gameObject);
         }
     }
