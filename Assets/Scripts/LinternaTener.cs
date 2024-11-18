@@ -12,7 +12,7 @@ public class LinternaTener : MonoBehaviour
         {
             Linterna.SetActive(true);
             Linterna.GetComponent<Linterna>().LinternaEnMano = true;
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
 
 

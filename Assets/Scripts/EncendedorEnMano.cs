@@ -13,7 +13,7 @@ public class EncendedorEnMano : MonoBehaviour
         {
             Encendedor.SetActive(true);
             Encendedor.GetComponent<Encendedor>().EncendedorEnMano = true;
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
 }
