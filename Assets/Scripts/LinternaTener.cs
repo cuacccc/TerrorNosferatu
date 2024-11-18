@@ -13,6 +13,10 @@ public class LinternaTener : MonoBehaviour
             Linterna.SetActive(true);
             Linterna.GetComponent<Linterna>().LinternaEnMano = true;
             Destroy(gameObject);
+            NotificationsManager.Instance.ShowNotification(
+                $"¡Recogiste una linterna! Presiona la tecla L para encenderla y apagarla.",
+                3f
+            );
         }
 
 
