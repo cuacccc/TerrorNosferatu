@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
     // Boton Carga escena del juego
     public void EscenaJuego()
     {
-        SceneManager.LoadScene("Juego");
+        SceneManager.LoadScene("Nivel");
     }
     // Boton Carga menu configuracion
     public void CargarConfiguracion(string Configuracion)

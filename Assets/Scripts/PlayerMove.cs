@@ -32,5 +32,8 @@ public class PlayerMove : MonoBehaviour
 
         animator.SetFloat("VelX", x);
         animator.SetFloat("VelY", y);
+
+
+
     }
 }
