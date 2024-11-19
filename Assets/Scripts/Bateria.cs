@@ -5,12 +5,12 @@ using UnityEngine;
 public class Bateria : MonoBehaviour
 {
     public GameObject linterna;
-    public float bateria;
+    //public float bateria;
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            linterna.GetComponent<Linterna>().cantBateria += bateria;
+            linterna.GetComponent<Linterna>(); //.cantBateria += bateria;
             Destroy(gameObject);
         }
     }

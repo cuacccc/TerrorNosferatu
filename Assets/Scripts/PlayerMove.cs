@@ -10,11 +10,10 @@ public class PlayerMove : MonoBehaviour
 
     public float runSpeed = 7;
     public float rotationSpeed = 250;
-
     public Animator animator;
 
     private float x, y;
-
+    
 
     // Update is called once per frame
     void Update()
@@ -36,4 +35,8 @@ public class PlayerMove : MonoBehaviour
 
 
     }
+    
+
+
+
 }
