@@ -21,7 +21,7 @@ public class HolyObject : MonoBehaviour
 
             // Mostrar la notificación en el texto
             NotificationsManager.Instance.ShowNotification(
-                    $"¡Recogiste {objectName}! El vampiro se alejará por {scareDuration} segundos.",
+                    $"¡{objectName}! <i>(El vampiro se alejará por {scareDuration} segundos).</i>",
                     3f
                 );
 
